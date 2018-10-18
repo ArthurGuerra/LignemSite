@@ -1,6 +1,9 @@
 let selectStt = document.querySelector('#slcst');
 let fontDiv = document.querySelector('#fontLoc');
+let bdDoc = document.querySelector('#body');
 document.querySelector('#fontPage').addEventListener('click', function() {
+  bdDoc.style.height = '200vh';
+  bdDoc.style.width = '200vw';
   if(selectStt.value === '')
   alert('Escolha um estado primeiro!');
   if(selectStt.value === 'AC')
