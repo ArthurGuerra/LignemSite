@@ -30,6 +30,24 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   width: 3%;
   height: 3%;
 }
+@media (max-width: 900px) {
+  #liglogo{
+    height: 5%;
+    width: 5%;
+  }
+}
+@media (max-width: 584px) {
+  #liglogo{
+    height: 7%;
+    width: 7%;
+  }
+}
+@media (max-width: 366px) {
+  #liglogo{
+    height: 9%;
+    width: 9%;
+  }
+}
 main h2{
   color: white;
   padding-top: 25px;
@@ -97,6 +115,30 @@ select{
   float: left;
   background-color: #D7DDE8;
 }
+@media (max-width: 950px) {
+  #homebtn{
+    height: 10%;
+    width: 8%;
+  }
+}
+@media (max-width: 600px) {
+  #homebtn{
+    height: 10%;
+    width: 12%;
+  }
+}
+@media (max-width: 400px) {
+  #homebtn{
+    height: 10%;
+    width: 15%;
+  }
+}
+@media (max-width: 280px) {
+  #homebtn{
+    height: 7%;
+    width: 15%;
+  }
+}
 li{
   padding-bottom: 20px;
   margin-left: 5%;
@@ -104,4 +146,11 @@ li{
 .side{
   margin-top: -42px;
   margin-left: 75%;
+}
+@media (max-width: 871px) {
+  .side{
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 5%;
+  }
 }
