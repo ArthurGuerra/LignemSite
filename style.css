@@ -12,6 +12,7 @@ body{
   margin: 0 auto;
   border-left: 1px solid #74ebd5;
   border-right: 1px solid #74ebd5;
+  align-items: center;
 }
 header{
   margin:0;
@@ -50,7 +51,7 @@ main{
 }
 #downarr{
   width: 5%;
-  height: 5%;
+  height: 8%;
 }
 #agrad{
   padding-bottom: 10px;
@@ -79,4 +80,28 @@ select{
 #fontLoc{
   color: white;
   padding-top: 30px;
+}
+#homebtn{
+  position: -webkit-fixed;
+  position: fixed;
+  bottom: 50%;
+  left: 0;
+  width: 4%;
+  height: 8%;
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  border: 1px solid #304352;
+  padding: 5px 5px 5px 5px;
+  border-radius: 98%;
+  float: left;
+  background-color: #D7DDE8;
+}
+li{
+  padding-bottom: 20px;
+  margin-left: 5%;
+}
+.side{
+  margin-top: -42px;
+  margin-left: 75%;
 }

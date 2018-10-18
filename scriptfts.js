@@ -1,56 +1,58 @@
 let selectStt = document.querySelector('#slcst');
 let fontDiv = document.querySelector('#fontLoc');
 document.querySelector('#fontPage').addEventListener('click', function() {
+  if(selectStt.value === '')
+  alert('Escolha um estado primeiro!');
   if(selectStt.value === 'AC')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br>https://www.wwf.org.br/natureza_brasileira/questoes_ambientais/biomas/bioma_caatinga/?56923/Acre-Amazonas-e-Rondonia-vao-trabalhar-juntos-na-implementacao-do-Codigo-Florestal<br>https://pt.wikipedia.org/wiki/Geografia_do_Acre#Vegeta%C3%A7%C3%A3o<br>http://portalamazonia.com/noticias/governo-do-acre-atua-na-criacao-definitiva-da-floresta-estadual-do-afluente<br>http://ambienteacreano.blogspot.com/2011/04/passado-presente-e-futuro-do-cultivo-de.html<br>https://www.significados.com.br/curica/<br>https://canaldopet.ig.com.br/guia-bichos/passaros/tucano-toco/57a24d19c144e671ccdd91cd.html';
   if(selectStt.value === 'AL')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://www.grupoescolar.com/pesquisa/fauna-e-flora-de-alagoas.html<br>https://argosfoto.photoshelter.com/image/I0000bsYxQfo1RXA<br>https://www.flickr.com/photos/ana_cotta/2521898117<br>https://www.sosma.org.br/blog/projeto-identifica-aves-centro-de-experimentos-florestais/anu-preto-crotophaga-ani-01/<br>https://www.oeco.org.br/colunas/colunistas-convidados/29222-mutum-de-alagoas-extinto-na-natureza-mas-com-caminho-de-volta/<br>https://www.embrapa.br/semiarido/busca-de-imagens/-/midia/1457001/umbuzeiro<br>https://www.youtube.com/watch?v=aMEQJOnwFHI';
   if(selectStt.value === 'AP')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.brasil-turismo.com/amapa.htm<br>https://tvlagartixa.blogspot.com/2017/02/ave-da-semana-flamingo.html<br>https://amazonianarede.com.br/pesquisa-e-monitoramento-garantem-preservacao-de-gaviao-real-a-mais-poderosa-e-predadora-das-aves/<br>http://casteloroger.blogspot.com/2011/04/o-amapazeiro.html<br>http://br.viarural.com/servicos/turismo/florestas-estaduais/floresta-estadual-do-amapa/default.htm';
   if(selectStt.value === 'AM')
-  fontDiv.innerHTML = 'Fontes:<br>http://www.brasil-turismo.com/amazonas.htm<br>https://www.acritica.com/channels/cotidiano/news/rede-de-observadores-criada-ha-cinco-anos-reune-pessoas-que-observam-passaros<br>https://www.suapesquisa.com/fauna_flora/amazonas.htm<br>http://meioambiente.culturamix.com/natureza/o-clima-da-amazonia<br>https://estudandoabiologia.wordpress.com/2012/11/06/onca-pintada/<br>https://www.youtube.com/watch?v=5b4zeWOyOY4<br>http://meioambiente.culturamix.com/ecologia/recursos-naturais-da-amazonia';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.brasil-turismo.com/amazonas.htm<br>https://www.acritica.com/channels/cotidiano/news/rede-de-observadores-criada-ha-cinco-anos-reune-pessoas-que-observam-passaros<br>https://www.suapesquisa.com/fauna_flora/amazonas.htm<br>http://meioambiente.culturamix.com/natureza/o-clima-da-amazonia<br>https://estudandoabiologia.wordpress.com/2012/11/06/onca-pintada/<br>https://www.youtube.com/watch?v=5b4zeWOyOY4<br>http://meioambiente.culturamix.com/ecologia/recursos-naturais-da-amazonia';
   if(selectStt.value === 'BA')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://meioambiente.culturamix.com/natureza/vegetacao-da-bahia<br>https://pt.wikipedia.org/wiki/Macuco<br>https://www.todabahia.com.br/curaca-tera-centro-de-reproducao-de-ararinhas-azuis-ate-2019/<br>https://www.flickr.com/photos/jeilsonandrade/23653389545<br>https://pt.wikipedia.org/wiki/Adamantinia<br>http://sertaobaiano.com.br/noticia/mpf-planeja-acoes-coordenadas-em-defesa-do-rio-sao-francisco';
   if(selectStt.value === 'CE')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://meioambiente.culturamix.com/natureza/a-vegetacao-do-ceara-terra-da-caatinga<br>https://pt.wikipedia.org/wiki/Soldadinho-do-araripe<br>http://www.meioambiente.ufrn.br/?p=36452<br>https://escola.britannica.com.br/levels/fundamental/assembly/view/217253<br>https://pauloiran.blogspot.com/2017/09/com-49-dos-votos-carnauba-e-eleita.html<br>https://www.fazfacil.com.br/jardim/cacto-cabeca-de-frade/';
   if(selectStt.value === 'ES')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://g1.globo.com/espirito-santo/noticia/2016/11/parque-estadual-pedra-azul-volta-receber-visitantes-no-es.html<br>https://pt.wikipedia.org/wiki/Geografia_do_Esp%C3%ADrito_Santo#Hidrografia<br>https://pt.wikipedia.org/wiki/Esp%C3%ADrito_Santo_(estado)<br>https://domtotal.com/noticias/detalhes.php?notId=765102<br>https://www.achetudoeregiao.com.br/animais/ourico_preto.htm<br>http://ericajardinagem.blogspot.com/2015/01/bromelia-em-forma-de-vaso-porto-seguro.html<br>http://basilio.fundaj.gov.br/pesquisaescolar/index.php?option=com_content&view=article&id=393:jequitiba&catid=45:letra-j';
   if(selectStt.value === 'GO')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://brasilescola.uol.com.br/brasil/aspectos-naturais-goias.htm<br>http://www.avesderapinabrasil.com/sarcoramphus_papa.htm<br>http://animais.culturamix.com/informacoes/aves/aguia-cinzenta-harpyhaliaetus-coronatus-especie-ameacada<br>http://curiosidadesvegetais.blogspot.com/2015/02/voce-sabia-que-mangabeira.html<br>https://www.beneficiosdasplantas.com.br/jequitiba/';
   if(selectStt.value === 'MA')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://meioambiente.culturamix.com/ecologia/a-riqueza-da-vegetacao-do-maranhao<br>http://www.melhoresdestinos.com.br/lencois-maranhenses-dicas-viagem.html<br>https://aquiondeeumoro.wordpress.com/2011/10/06/codigo-florestal-ou-codigo-da-biodiversidade/pifeiros-dia-de-domingo-em-01-outubro-2011-por-terezinha-souto-271-2/<br>https://pt.wikipedia.org/wiki/Sabi%C3%A1-da-praia<br>http://animais.culturamix.com/informacoes/aves/marreca-de-asa-azul<br>https://www.embrapa.br/busca-de-projetos/-/projeto/210746/integracao-de-atividades-da-pequena-e-media-exploracao-do-cajueiro-no-nordeste-do-brasil<br>https://pt.wikipedia.org/wiki/Tucum';
   if(selectStt.value === 'MT')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://hotelmt.com.br/blog/descubra-as-7-cachoeiras-do-mato-grosso-mais-bonitas/<br>https://www.estadosecapitaisdobrasil.com/estado/mato-grosso/attachment/cachoeira-veu-de-noiva-parque-nacional-chapada-dos-guimaraes-mato-grosso/<br>https://brasilescola.uol.com.br/brasil/aspectos-naturais-mato-grosso-sul.htm<br>http://www.matogrossonamidia.com.br/do-pantanal-ao-araguaia-mato-grosso-oferece-opcoes-de-turismo-em-todas-as-regioes/tuiuiu-pantanal/<br>http://www.rbpantanal.org.br/news/v/23/a-flora-pantaneira<';
   if(selectStt.value === 'MS')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://www.resumoescolar.com.br/geografia-do-brasil/geografia-do-mato-grosso-do-sul/<br>http://animais.culturamix.com/informacoes/aves/tuiuiu-ou-jaburu-o-simbolo-do-pantanal<br>http://g1.globo.com/natureza/noticia/2013/10/cientistas-descobrem-que-tocas-de-tatu-canastra-ajudam-outras-especies.html<br>https://www.oeco.org.br/noticias/28763-estudo-revela-repertorio-vocal-das-ariranhas/<br>http://espacodamusica11.blogspot.com/2011/05/wekeend.html<br>https://www.natue.com.br/natuelife/tudo-sobre-aroeira-propriedades-e-beneficios-para-a-saude.html';
   if(selectStt.value === 'MG')
-  fontDiv.innerHTML = 'Fontes:<br>https://pt.wikipedia.org/wiki/Ficheiro:Tamandu%C3%A1-bandeira_com_filhote_em_pastagem_-_cropped.jpg<br>http://www.naturezaterra.com.br/brasil-MG.htm<br>http://meioambiente.culturamix.com/ecologia/fauna/fauna-da-mata-atlantica';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://pt.wikipedia.org/wiki/Ficheiro:Tamandu%C3%A1-bandeira_com_filhote_em_pastagem_-_cropped.jpg<br>http://www.naturezaterra.com.br/brasil-MG.htm<br>http://meioambiente.culturamix.com/ecologia/fauna/fauna-da-mata-atlantica';
   if(selectStt.value === 'PA')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://anapuemfoco.blogspot.com/2013/07/vegetacao-natural-cobre-77-do-estado-do.html<br>https://escola.britannica.com.br/levels/fundamental/article/Par%C3%A1/483433<br>https://www.tudosobreplantas.com.br/asp/plantas/ficha.asp?id_planta=371191<br>https://www.pensamentoverde.com.br/meio-ambiente/mogno-brasileiro-conheca-os-riscos-que-colocam-arvore-caminho-da-extincao/<br>https://www.embrapa.br/busca-de-imagens/-/midia/3630001/acaizeiro-em-producao<br>http://www.iguiecologia.com/o-maior-espetaculo-da-terra-esta-chegando/preguic%CC%A7a-de-tre%CC%82s-dedos<br>http://www.orm.com.br/noticias/para/MjU2OTM=/Tartaruga-da-amazonia-e-resgatada-no-sul-do-Para';
   if(selectStt.value === 'PB')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://paisagensdaparaiba.blogspot.com/2010/12/sao-joao-do-cariri-cariri-oriental-pb.html<br>https://pt.wikipedia.org/wiki/Para%C3%ADba#Meio_ambiente<br>https://pt.wikipedia.org/wiki/Jabuti-piranga<br>https://casadospassaros.net/galo-de-campina/<br>http://fotosdenatureza.blogspot.com/2008/04/paraba.html<br>http://fotosdenatureza.blogspot.com/2008/04/paraba.html';
   if(selectStt.value === 'PR')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.guiageo-parana.com/geografia.htm<br>https://pt.wikipedia.org/wiki/Clima_do_Paran%C3%A1<br>http://universodanatureza.blogspot.com/2015/02/gralha-azul.html<br>https://www.gazetadopovo.com.br/vida-e-cidadania/verao/bichos-do-parana-a-solta-no-litoral-8v1q41pdh7tyyva7slmwfqxo0/<br>https://www.infoescola.com/mamiferos/jaguatirica/<br>https://www.embrapa.br/busca-de-imagens/-/midia/672002/imbuia';
   if(selectStt.value === 'PE')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://br.geoview.info/vegetacao_do_agreste_pernambucanoregiao_de_sao_caetanope,1686679p<br>https://casadospassaros.net/murucutu/<br>http://faunaefloradorn.blogspot.com/2010/10/pintor-verdadeirotangara-fastuosa-fauna.html<br>https://www.csfotojornalismo.net/%C3%81rvores-e-Plantas';
   if(selectStt.value === 'PI')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://geotufao.blogspot.com/2012/09/vegetacao-do-piaui.html<br>https://www.infoescola.com/aves/ema/<br>https://www.achetudoeregiao.com.br/animais/andorinha.htm<br>https://www.youtube.com/watch?v=NptCEAnKXy8<br>https://commons.wikimedia.org/wiki/File:Moc%C3%B3_(Kerodon_rupestris)_no_Parque_Nacional_da_Serra_da_Capivara.jpg<br>https://www.youtube.com/watch?v=xlj7OtJtOoc<br>https://suburbanodigital.blogspot.com/2017/07/carnauba-arvore-da-vida-da-prosperidade-e-da-beleza.html';
   if(selectStt.value === 'RJ')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://axelgrael.blogspot.com/2013/08/inventario-florestal-do-rio-de-janeiro.html<br>https://pt.wikibooks.org/wiki/Estado_do_Rio_de_Janeiro/Natureza<br> https://trilhatranscarioca.com.br/fauna-e-flora/<br>https://trilhatranscarioca.com.br/fauna-e-flora/<br>http://www.riodejaneiroaqui.com/pt/natureza-no-rio-de-janeiro.html<br>http://www.a12.com/radio/noticias/conheca-as-curiosidades-sobre-o-rio-onde-foi-encontrada-a-imagem-de-nossa-senhora-aparecida';
   if(selectStt.value === 'RN')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>Indisponível por enquanto!';
   if(selectStt.value === 'RS')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://projetoriograndetche.weebly.com/a-vegetaccedilatildeo-no-rs.html<br>https://pt.wikipedia.org/wiki/Geografia_do_Rio_Grande_do_Sul#Clima<br>https://pt.wikipedia.org/wiki/Geografia_do_Rio_Grande_do_Sul#Hidrografia<br>https://casadospassaros.net/gralha-azul/<br>http://conexaoplaneta.com.br/blog/descoberta-nova-especie-de-peixe-nos-pampas-gauchos/<br>http://www.ciflorestas.com.br/conteudo.php?tit=projeto_vai_mapear_florestas_gauchas_&id=2595';
   if(selectStt.value === 'RO')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://maisro.com.br/parque-nacional-de-pacaas-novos-e-barreira-ao-desmatamento-em-rondonia/<br>https://pt.wikipedia.org/wiki/Rond%C3%B4nia#Clima,_hidrografia_e_vegeta%C3%A7%C3%A3o<br>http://www.apocalipsenews.com/brasil/rondonia-floresta-privatizada-esconde-o-niobio-o-mineral-mais-estrategico-e-raro-no-mundo/<br>https://escola.britannica.com.br/levels/fundamental/article/Rond%C3%B4nia/483527<br>https://www.agron.com.br/publicacoes/noticias/ecologia-agro-sustentavel/2015/06/22/044511/cumaru-verdadeiro.html<br>http://ruralcentro.uol.com.br/noticias/quem-sabe-responde-pacu-manteiga-em-acudes-56960<br>https://www.infoescola.com/aves/arara-azul/';
   if(selectStt.value === 'RR')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.hike-venezuela.com/pt/tour-roraima-6d.html<br>https://pt.wikipedia.org/wiki/Geografia_de_Roraima#Clima<br>https://www.tudosobreplantas.com.br/asp/plantas/ficha.asp?id_planta=14721<br>https://pt.wikipedia.org/wiki/Jequitib%C3%A1-rosa<br>https://pt.wikipedia.org/wiki/Cutia<br>https://pt.wikipedia.org/wiki/Podocnemis_unifilis';
   if(selectStt.value === 'SC')
-  fontDiv.innerHTML = 'Fontes:<br>http://geoesporte.blogspot.com/2014/09/aspectos-fisicos-de-santa-catarina-o.html<br>http://faunaeflora.terradagente.g1.globo.com/fauna/aves/NOT,0,0,1223537,Araponga.aspx<br>http://www.faunacps.cnpm.embrapa.br/mamifero/onca_p.html<br>http://www.avescatarinenses.com.br/animais/2-fauna/595-macaco-prego/4045<br>https://www.tripadvisor.com.br/LocationPhotoDirectLink-g303441-d1493739-i209783357-Jardim_Botanico_de_Curitiba-Curitiba_State_of_Parana.html';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://geoesporte.blogspot.com/2014/09/aspectos-fisicos-de-santa-catarina-o.html<br>http://faunaeflora.terradagente.g1.globo.com/fauna/aves/NOT,0,0,1223537,Araponga.aspx<br>http://www.faunacps.cnpm.embrapa.br/mamifero/onca_p.html<br>http://www.avescatarinenses.com.br/animais/2-fauna/595-macaco-prego/4045<br>https://www.tripadvisor.com.br/LocationPhotoDirectLink-g303441-d1493739-i209783357-Jardim_Botanico_de_Curitiba-Curitiba_State_of_Parana.html';
   if(selectStt.value === 'SP')
-  fontDiv.innerHTML = 'Fontes:<br>http://www.cidadedesaopaulo.com/ecoturismo/bemvindo/fauna-e-flora/<br>https://www.suapesquisa.com/fauna_flora/estado_sao_paulo.htm<br>https://curiosidadeanimalbrasil.wordpress.com/tag/muriqui-do-sul/<br>http://qplantaeessa.blogspot.com/2016/04/flor-de-sao-joao-ou-cipo-de-sao-joao.html#.W5p7KXVKjCI<br>http://regbor.blogspot.com/2010/07/o-ipe-beira-da-estrada.html';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.cidadedesaopaulo.com/ecoturismo/bemvindo/fauna-e-flora/<br>https://www.suapesquisa.com/fauna_flora/estado_sao_paulo.htm<br>https://curiosidadeanimalbrasil.wordpress.com/tag/muriqui-do-sul/<br>http://qplantaeessa.blogspot.com/2016/04/flor-de-sao-joao-ou-cipo-de-sao-joao.html#.W5p7KXVKjCI<br>http://regbor.blogspot.com/2010/07/o-ipe-beira-da-estrada.html';
   if(selectStt.value === 'SE')
-  fontDiv.innerHTML = 'Fontes:<br>http://br.geoview.info/vegetacao_do_agreste_pernambucanoregiao_de_sao_caetanope,1686679p<br>https://casadospassaros.net/murucutu/<br>http://faunaefloradorn.blogspot.com/2010/10/pintor-verdadeirotangara-fastuosa-fauna.html<br>https://www.csfotojornalismo.net/%C3%81rvores-e-Plantas';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>https://desvendesergipe.wordpress.com/2016/11/01/principais-aspectos-geograficos-de-sergipe/<br>https://www.temporadalivre.com/blog/melhores-destinos-no-sergipe/<br>https://pt.wikipedia.org/wiki/Rio_S%C3%A3o_Francisco<br>http://sergipeemfotos.blogspot.com/2012/09/caatinga-no-municipio-de-poco-redondo.html<br>https://pt.wikipedia.org/wiki/Mandacaru<br>https://pt.wikipedia.org/wiki/Veado-catingueiro<br>https://www.infoescola.com/anfibios/sapo-cururu/';
   if(selectStt.value === 'TO')
-  fontDiv.innerHTML = 'Fontes:<br>google.com';
+  fontDiv.innerHTML = 'Fontes das imagens:<br><br>http://www.portaldotocantins.com/2015/05/04/unidades-de-conservacao-do-tocantins-preservam-mais-de-240-mil-hectares-e-garantem-sustentabilidade/<br>https://pt.wikipedia.org/wiki/Tocantins<br>https://escola.britannica.com.br/levels/fundamental/article/Tocantins/483594<br>https://pt.wikipedia.org/wiki/Ficheiro:Lixeira_do_cerrado_de_Mato_Grosso.JPG<br>https://www.arteblog.net/2013/10/31/conheca-artesanato-produzido-tocantins/';
 });
