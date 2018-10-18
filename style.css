@@ -1,0 +1,82 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+html{
+  background-color: #D7DDE8;
+}
+body{
+  width: 85%;
+  margin: 0 auto;
+  border-left: 1px solid #74ebd5;
+  border-right: 1px solid #74ebd5;
+}
+header{
+  margin:0;
+  padding:0;
+  text-align: center;
+  display: block;
+  background: #74ebd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  overflow: auto;
+  color: #304352;
+}
+#liglogo{
+  width: 3%;
+  height: 3%;
+}
+main h2{
+  color: white;
+  padding-top: 25px;
+  text-align: center;
+}
+main{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-top: -1.3em;
+  background-color: #304352;
+  height: -moz-calc(100% - 100px); /* Firefox */
+ height: -webkit-calc(100% - 100px); /* Chrome, Safari */
+ height: calc(100% - 100px); /* IE9+ and future browsers */
+}
+#credPage{
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
+}
+#downarr{
+  width: 5%;
+  height: 5%;
+}
+#agrad{
+  padding-bottom: 10px;
+}
+main ul li{
+  font-size: 18px;
+  color: white;
+  text-align: justify;
+}
+
+select{
+  margin-top: 20px;
+  margin-bottom: 45px;
+  -webkit-appearance: none;  /* Remove estilo padrão do Chrome */
+   -moz-appearance: none; /* Remove estilo padrão do FireFox */
+   appearance: none; /* Remove estilo padrão do FireFox*/
+   background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;  /* Imagem de fundo (Seta) */
+   background-position: 218px center;  /*Posição da imagem do background*/
+   width: 250px; /* Tamanho do select, maior que o tamanho da div "div-select" */
+   height:30px; /* Altura do select, importante para que tenha a mesma altura em todo os navegadores */
+   border:1px solid #ddd;
+}
+#fontPage{
+  width: 35%;
+}
+#fontLoc{
+  color: white;
+  padding-top: 30px;
+}
