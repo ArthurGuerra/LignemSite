@@ -8,7 +8,8 @@ html{
   background-color: #D7DDE8;
 }
 body{
-  width: 85%;
+  width: 200vw;
+  height: 200vh;
   margin: 0 auto;
   border-left: 1px solid #74ebd5;
   border-right: 1px solid #74ebd5;
