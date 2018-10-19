@@ -8,12 +8,19 @@ html{
   background-color: #D7DDE8;
 }
 body{
-  width: 200vw;
-  height: 200vh;
   margin: 0 auto;
   border-left: 1px solid #74ebd5;
   border-right: 1px solid #74ebd5;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+@media (max-width: 500px) {
+  body{
+      width: 200vw;
+      height: 200vh;
+  }
 }
 header{
   margin:0;
@@ -103,7 +110,7 @@ select{
 #homebtn{
   position: -webkit-fixed;
   position: fixed;
-  bottom: 50%;
+  bottom: 0;
   left: 0;
   width: 4%;
   height: 8%;
@@ -118,26 +125,26 @@ select{
 }
 @media (max-width: 950px) {
   #homebtn{
-    height: 10%;
-    width: 8%;
+    height: 7%;
+    width: 5%;
   }
 }
 @media (max-width: 600px) {
   #homebtn{
-    height: 10%;
-    width: 12%;
+    height: 7%;
+    width: 9%;
   }
 }
 @media (max-width: 400px) {
   #homebtn{
-    height: 10%;
-    width: 15%;
+    height: 7%;
+    width: 12%;
   }
 }
 @media (max-width: 280px) {
   #homebtn{
-    height: 7%;
-    width: 15%;
+    height: 4%;
+    width: 12%;
   }
 }
 li{
@@ -148,7 +155,7 @@ li{
   margin-top: -42px;
   margin-left: 75%;
 }
-@media (max-width: 871px) {
+@media (max-width: 500px) {
   .side{
     padding-bottom: 20px;
     margin-top: 0px;
